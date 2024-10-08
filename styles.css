@@ -1,0 +1,29 @@
+#head{
+    color: white;
+    font-size: 80px;
+}
+#board{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    row-gap: 5px;
+    column-gap: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#cell0, #cell1, #cell2, #cell3, #cell4, #cell5, #cell6, #cell7, #cell8{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    color: black;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   font-size: 2rem;
+}
+#reset{
+    height: 40px;
+    width: 80px;
+    font-size: 1.5rem;
+}
