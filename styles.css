@@ -21,7 +21,15 @@
    align-items: center;
    text-align: center;
    font-size: 2rem;
+   transition: transform 0.5s ease-out;
 }
+#cell0:hover, #cell1:hover, #cell2:hover, #cell3:hover, #cell4:hover, #cell5:hover, #cell6:hover, #cell7:hover, #cell8:hover{
+    transform: scale(1.1);
+}
+#result{
+    color: white;
+}
+
 #reset{
     height: 40px;
     width: 80px;
